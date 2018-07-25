@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Visual studio
+*.tlog
+*.pdb
+*.idb
+*.log
