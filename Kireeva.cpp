@@ -10,7 +10,9 @@
 int main() {
 	printf("Start test...\n");
 	runTest();
+	printf("Starting the source program...\n");
+	getMaxPath_Maria_UserInterface();
 	printf("Exit...\n");
-	scanf_s("%*c");
+	scanf_s("%*c%*c");
 	return 0;
 }
