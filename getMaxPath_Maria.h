@@ -6,10 +6,10 @@
 // Возвращает: максимальный путь (?).
 unsigned getMaxPath_Maria(size_t N, unsigned * x) // Выделение отдельной функции.
 {
-	if (N < 1 || x == nullptr) return -1; // Если не правильно.
+	if (N < 1 || x == nullptr) return -1; // Если не правильно отправлены данные.
 	unsigned kmax = 0, k = 0;
 	for (size_t i = 1; i < N; i++) {
-		if (x[0]<x[i])
+		if (x[0] < x[i])
 			k += x[i] - x[0];
 		else
 		{
